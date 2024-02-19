@@ -1,5 +1,5 @@
 # ground.py
-from object import Object
+from .object import Object
 import pygame  # Make sure to import pygame
 
 class Ground(Object):

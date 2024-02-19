@@ -1,7 +1,7 @@
 # game.py
 import pygame
-from player import Player
-from ground import Ground
+from .player import Player
+from .ground import Ground
 
 class Game:
     def __init__(self, screen, objects):

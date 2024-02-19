@@ -1,5 +1,5 @@
 # player.py
-from object import Object
+from .object import Object
 from vec_ops.vector import engVector  # Correct import statement
 import pygame
 

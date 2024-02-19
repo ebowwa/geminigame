@@ -1,8 +1,8 @@
 # setup.py
-from game import Game
-from player import Player
-from ground import Ground
-from controls import Controls
+from .game import Game
+from .player import Player
+from .ground import Ground
+from .controls import Controls
 import pygame
 
 def initialize_game_objects(screen):

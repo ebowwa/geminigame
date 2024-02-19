@@ -1,7 +1,7 @@
 # main.py
 import pygame
-from setup import initialize_game_objects, initialize_controls
-from utils import init_screen, init_clock
+from dagame.setup import initialize_game_objects, initialize_controls
+from dagame.utils import init_screen, init_clock
 
 def run_game():
     screen, clock = init_screen(), init_clock()
